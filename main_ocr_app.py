@@ -146,7 +146,7 @@ class ResultFrame(ctk.CTkFrame):
         os.startfile(image_path)
 
 class LoaderFrame(ctk.CTkFrame):
-    path = "img\\loader.png"
+    path = "loader.png"
     angle = 0
     
     def __init__(self, master):
